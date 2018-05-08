@@ -1,0 +1,19 @@
+public class DeadBeef {
+    public static void main(String args[]) {
+	double i;
+	for (i=1;i<=1000;i++) {
+	if (i/4%1==0 && i/9%1==0) {
+	System.out.println("DEADBEEF");
+}
+	else if (i/4%1==0) {
+	System.out.println("DEAD");
+}
+	else if (i/9%1==0) {
+	System.out.println("BEEF");
+}
+	else {
+	System.out.println((int)i);
+}
+}
+    }
+}
